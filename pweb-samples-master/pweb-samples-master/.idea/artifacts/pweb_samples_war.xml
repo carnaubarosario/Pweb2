@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="pweb-samples:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>pweb-samples</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="pweb-samples-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="pweb-samples:war exploded" />
+    </root>
+  </artifact>
+</component>
